@@ -13,6 +13,7 @@ import { Chart5 } from "../components/chart-5";
 import { Chart7 } from "../components/chart-7";
 import { Chart8 } from "../components/chart-8";
 import { Chart9 } from "../components/chart-9";
+import { Chart10 } from "../components/chart-10";
 
 export const Home = () => {
   const year = new Date().getFullYear();
@@ -56,7 +57,9 @@ export const Home = () => {
           </div>
           <div className="bordered row3 地级市统计">
             <h2>案发地级市统计</h2>
-            <div className="chart"></div>
+            <div className="chart">
+              <Chart10 />
+            </div>
           </div>
         </section>{" "}
       </main>{" "}
