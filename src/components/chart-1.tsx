@@ -43,9 +43,9 @@ export const Chart1 = () => {
       },
       grid: {
         x: px(40),
-        y: px(40),
+        y: px(30),
         x2: px(40),
-        y2: px(40),
+        y2: px(50),
       },
       yAxis: {
         axisLine: {
