@@ -4,7 +4,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #010310;
+  background: url('../images/bg.jpg');
   color: white;
   font-size: px(16);
 
@@ -13,6 +13,12 @@
     background-size: cover;
     width: px(2420);
     margin: 0 auto;
+    border: 1px solid #0d2d59;
+
+    h1 {
+      text-align: center;
+      margin-top: px(24);
+    }
   }
 
   >footer {

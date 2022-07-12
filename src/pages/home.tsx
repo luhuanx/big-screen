@@ -23,12 +23,9 @@ export const Home = () => {
   return (
     <div className="home">
       {" "}
-      <header
-        className="x"
-        style={{
-          backgroundImage: `url(${headerBg})`,
-        }}
-      />{" "}
+      <header>
+        <h1>武汉市公安局合成作战平台</h1>
+      </header>{" "}
       <main>
         {" "}
         <section className="section1">
